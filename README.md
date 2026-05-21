@@ -40,14 +40,34 @@ A full-stack stock market dashboard built with React and Flask that allows users
 
 ---
 
-# Project Structure
+## Demo
 
-```txt
-frontend/
-  src/
-    components/
-    pages/
+https://github.com/user-attachments/assets/5f481ea1-9a20-4c66-968b-a4d0bc4fc3dc
 
-backend/
-  app.py
-  services/
+## Installation
+
+### Clone Repository
+```bash
+git clone https://github.com/YawenLiu23333/stock-insight-dashboard.git
+```
+
+### Backend Setup
+```text
+cd backend
+pip install flask flask-cors yfinance requests pandas
+python app.py
+```
+
+### Frontend Setup
+```text
+cd frontend
+npm install
+npm install recharts
+npm run dev
+```
+
+
+
+
+
+
