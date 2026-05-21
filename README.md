@@ -38,6 +38,18 @@ A full-stack stock market dashboard built with React and Flask that allows users
 - Finnhub
 - Alpha Vantage
 
+## Architecture
+
+Frontend:
+- React + Vite
+- Recharts visualization library
+- Modular component-based UI
+
+Backend:
+- Flask REST API
+- Financial data aggregation and caching
+- Data cleaning and normalization pipeline
+
 ---
 
 ## Demo
@@ -52,19 +64,28 @@ git clone https://github.com/YawenLiu23333/stock-insight-dashboard.git
 ```
 
 ### Backend Setup
-```text
+```bash
 cd backend
 pip install flask flask-cors yfinance requests pandas
 python app.py
 ```
 
 ### Frontend Setup
-```text
+```bash
 cd frontend
 npm install
 npm install recharts
 npm run dev
 ```
+
+## Future Improvements
+
+- NLP-based news sentiment analysis
+- Stock price prediction models
+- Technical indicators (RSI, MACD, Bollinger Bands)
+- Watchlist and portfolio tracking
+- Multi-stock comparison dashboard
+- Cloud deployment
 
 
 
